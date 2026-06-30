@@ -1,0 +1,20 @@
+# Public org profile — copy to org_profile.toml and fill in.
+# Public fields ONLY. Never put bank details, SSNs, passwords, or API keys here.
+
+name = "Bright Futures Literacy Coalition"
+ein = "12-3456789"                       # public per IRS 990 disclosure
+org_type = "501(c)(3)"
+mission = "Improve childhood literacy in under-resourced rural communities."
+budget_band = "$1M-$5M"
+
+programs = [
+    "After-school reading tutoring",
+    "Summer book distribution",
+    "Family literacy nights",
+]
+focus_areas = ["education", "literacy", "youth development", "rural communities"]
+geography = ["US", "Appalachia", "West Virginia"]
+populations_served = ["children", "low-income families", "rural"]
+
+# Default search terms used when you don't specify one.
+keywords = ["literacy", "education", "youth", "rural"]

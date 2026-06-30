@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "opportunity_id": "abc-123",
+      "opportunity_number": "ED-2026-001",
+      "opportunity_title": "Rural Literacy Innovation Grants",
+      "agency_name": "Department of Education",
+      "agency_code": "ED",
+      "opportunity_status": "posted",
+      "summary": {
+        "post_date": "2026-05-01",
+        "close_date": "2026-09-15",
+        "award_floor": 50000,
+        "award_ceiling": 500000,
+        "estimated_total_program_funding": 5000000,
+        "applicant_eligibility_description": "Nonprofit organizations with 501(c)(3) status serving rural communities.",
+        "summary_description": "Supports evidence-based literacy programs in under-resourced rural districts.",
+        "additional_info_url": "https://example.gov/literacy"
+      }
+    }
+  ],
+  "pagination_info": {"total_records": 1}
+}

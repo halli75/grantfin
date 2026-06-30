@@ -1,0 +1,20 @@
+# Secret policy — declares which secrets exist, their type, and the domains each
+# may be used on. NO values here (values go in the OS keychain via:
+#   grant-scout vault set org.bank_account
+# Copy to vault_policy.toml and edit.
+
+[org.ein]
+type = "ein"
+allowed_domains = ["grants.gov", "*.grants.gov", "*.gov"]
+
+[org.bank_account]
+type = "bank_account"
+allowed_domains = ["grants.gov", "*.grants.gov"]   # money fields: keep tight
+
+[org.duns_uei]
+type = "uei"
+allowed_domains = ["*.gov", "sam.gov"]
+
+[portal.grants_gov_password]
+type = "credential"
+allowed_domains = ["grants.gov", "*.grants.gov"]

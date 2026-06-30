@@ -1,0 +1,10 @@
+# Reusable PUBLIC answers for grant applications. No secrets here.
+# Copy to answers.toml and fill with your standard responses.
+
+mission_statement = "Bright Futures Literacy Coalition improves childhood literacy in under-resourced rural communities through tutoring, book access, and family programs."
+
+need_statement = "In our service area, 40% of 4th graders read below grade level. We address this gap with evidence-based, volunteer-driven programs."
+
+org_history = "Founded in 2015, we have served over 8,000 children across 12 rural counties."
+
+evaluation_approach = "We measure reading-level growth with pre/post DIBELS assessments and track attendance and family engagement."

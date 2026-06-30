@@ -1,0 +1,19 @@
+# local pipeline DB, source cache, generated spreadsheets — never commit
+*.db
+grants_*.csv
+funders_*.csv
+grants_demo.csv
+funders_demo.csv
+.grant_scout_cache/
+demo_*.db
+org_profile.toml
+vault_policy.toml
+answers.toml
+apply_preview*.png
+
+# python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/

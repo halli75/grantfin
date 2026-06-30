@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Test Grant Application</title></head>
+<body>
+  <h1>Grant Application</h1>
+  <form id="app">
+    <label>Organization Name <input type="text" id="org_name" name="org_name"></label><br>
+    <label>EIN <input type="text" id="ein" name="ein"></label><br>
+    <label>Bank Account Number <input type="text" id="bank_account" name="bank_account"></label><br>
+    <button type="button" id="submit_btn" onclick="window.__submitted = true;">Submit</button>
+  </form>
+  <div id="status">not submitted</div>
+  <script>
+    window.__submitted = false;
+    document.getElementById('submit_btn').addEventListener('click', function () {
+      document.getElementById('status').textContent = 'submitted';
+    });
+  </script>
+</body>
+</html>
